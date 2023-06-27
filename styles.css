@@ -1,6 +1,5 @@
 #logo{
     background-color: #04156b;
-    height: 17vh;
 }
 .nyshex{
     margin-left: 3.9vh;
@@ -13,6 +12,10 @@
     font-weight: 100;
     margin-left: 3.9vh;
     margin-top: -10px;
+}
+.date{
+    margin-left: 3.2vh;
+    margin-top: -39px;
 }
 .greet{
     margin-top: 4vh;;
@@ -45,13 +48,18 @@ hr{
     margin-top: 4vh;
 }
 ul{
-    margin-left: 2vh;
+    margin-left: 2.2vh;
 }
 .straight > li{
     float: left;
-    margin: 0 20px;
+    margin: 0 13px;
+    opacity: 0.6;
 }
 .straight > p{
     float: left;
-    margin: 0 20px;
+    margin: 0 9px;
+    opacity: 0.6;
+}
+.straight{
+    margin-left: -39px;
 }
