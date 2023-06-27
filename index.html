@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="styles.css" rel ="stylesheet"/>
+    <style>
+        .greet{
+            margin-top: 4vh;;
+        }
+        .normtext.nolink{
+            margin-left: 3.8vh;
+        }
+        #logo{
+            background-color: #04156b;
+            height: 17vh;
+            margin: 0%;
+        }
+        .nyshex{
+            position: relative;
+            margin-left: 3.8vh;
+            padding-top: 2vh;
+            padding-bottom: 0%;
+        }
+        .dailytxt{
+            position: relative;
+            z-index: 2;
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            font-weight: 100;
+            margin-left: 3.8vh;
+            margin-top: -10px;
+        }
+        .normtext{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 100;
+        }
+        .anchor{
+            color: rgba(7, 55, 167, 0.88);
+            font-weight: 400;
+        }
+        .third{
+            margin-top: 4vh;
+        }
+        .redbutn{
+            border-radius: 20px;
+            height: 23px;
+            border: none;
+            color: rgb(246, 66, 66);
+            background-color: rgb(244, 222, 222);
+        }
+        hr{
+            width: 90%;
+            opacity: 0.2;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul{
+            margin-left: 2vh;
+        }
+        .straight >li{
+            float: left;
+            margin: 0 20px;
+        }
+        .straight >p{
+            float: left;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id = "wrapper">
+        <header>
+            <div id ="logo">
+                <p class = "nyshex"><a href="https://nyshex.com/"><img src="logo.png" alt ="logo" height="30px"></a></p>
+                <p class="dailytxt">Daily Briefing</p>
+            </div>
+            
+            <p class="normtext nolink greet">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH_zY3FheAGVUsh1t6EZkQ1vvEpwCWdY6aMFbA3nyafCLOXl8J8zCdCRnsPGeGtPp5_c8&usqp=CAU" height="12.5px"/>
+                Good Morning Jane,<br>
+                <p class="normtext nolink" style="margin-top: -19px; margin-left: 5.4vh;">Here are today's highlights:</p>
+            </p>
+            <div>
+                <ul>
+                    <li>
+                        <p class="normtext link"><a class="anchor" href="#">Delay risk:</a> 3 containers would likely miss connection in Ningbo.</p>
+                    </li>
+                    <li>
+                        <p class="normtext link"><a class="anchor" href="#">Origin issue:</a> 5 containers at risk of not of not getting in on time in busan.</p>
+                    </li>
+                    <li>
+                        <p class="normtext link"><a class="anchor" href="#">Fee risk:</a> 8 containers have been unloaded at Long beach for more than 4 days.</p>
+                    </li>
+                    <li>
+                        <p class="normtext link"><a class="anchor" href="#">Origin issue:</a> Bookings lagging behind the forecast in Laem Chabang.</p>
+                    </li>
+                </ul>
+                <hr/>
+            </div>
+            <div class="normtext nolink third">
+                <button class="redbutn">Delay risk</button>
+                <h4 style="padding-top: 8px;">3 containers likely to miss connection</h4>
+                <div style="display: inline-block;">
+                    <ul class="straight" style="display: inline-block;">
+                            <p class="light" style="font-family:'Times New Roman', Times, serif;"> TP1 </p>
+                            <li>
+                                Hong Kong-Los Angeles
+                            </li>
+                            <li>
+                                2 bookings
+                            </li>
+                            <li>
+                                6 TEU
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+</body>
+</html>
