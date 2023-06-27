@@ -99,3 +99,7 @@ ul{
 .sec{
     margin-left: 15px
 }
+.yellow{
+    background-color: rgb(245, 245, 143);
+    color:rgb(95, 95, 62);
+}
