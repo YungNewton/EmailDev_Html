@@ -41,3 +41,17 @@ hr{
     color: rgb(246, 66, 66);
     background-color: rgb(244, 222, 222);
 }
+.third{
+    margin-top: 4vh;
+}
+ul{
+    margin-left: 2vh;
+}
+.straight > li{
+    float: left;
+    margin: 0 20px;
+}
+.straight > p{
+    float: left;
+    margin: 0 20px;
+}
