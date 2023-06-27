@@ -1,3 +1,6 @@
+body{
+    font-size: larger;
+}
 #logo{
     background-color: #04156b;
 }
@@ -14,11 +17,14 @@
     margin-top: -10px;
 }
 .date{
-    margin-left: 3.2vh;
-    margin-top: -39px;
+    color: rgb(117, 181, 210);
+    margin-left: 3.9vh;
+    margin-top: -2vh;
+    font-size: 12px;
+    padding-bottom: 25px;
 }
 .greet{
-    margin-top: 4vh;;
+    margin-top: 4vh;
 }
 .normtext.nolink{
     margin-left: 3.9vh;
@@ -115,4 +121,7 @@ ul{
 }
 .last{
     margin-top: 40px;
+}
+.light{
+    margin-left: 3.9vh;
 }
