@@ -25,7 +25,7 @@
 }
 .normtext{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 100;
+    font-weight:350
 }
 .anchor{
     color: rgba(7, 55, 167, 0.88);
@@ -62,4 +62,23 @@ ul{
 }
 .straight{
     margin-left: -39px;
+}
+.secbtn{
+   margin-left: 10px;
+   border-radius: 4px;
+}
+.greenbutton{
+    border-radius: 4px;
+    background-color: rgb(206, 238, 206);
+    color: green;
+    margin-left: 10px;
+}
+.under{
+    margin-left: 200px;
+}
+.bluebutton{
+    background-color: #3453ea;
+    color: white;
+    border-radius: 4px;
+    height: 35px;
 }
